@@ -24,7 +24,10 @@
 	</div>
 
 	<!--桌面-->
-	<div id="ink"></div>
+	<a class="popup-ink"  >
+		<div id="ink" class="icon"></div>
+	</a>
+	
 	<a href="https://twitter.com/quilldren_tw" target="_blank">
 		<div id="twitter" class="icon">		
 			<div id="twitter2"></div>
@@ -175,4 +178,18 @@
 				'</div>'
 		}
 	});
+
+	$('.popup-ink').magnificPopup({
+		items: {
+			src: `<div class="white-popup" style="width: 600px; height: 800px; padding: 24px 7px; background: url(./img/credits_bg.png); background-size: contain; background-repeat: no-repeat;">
+				  <div style="width: 556px; height: 752px; overflow: auto; padding-left:30px">
+				  	<img src="./img/credits.png" style="width: 600px; height: auto;" />
+				  </div>
+				</div>`,
+			// src: './img/credits_bg.png'
+			type: 'inline' // this is default type
+		},
+	});
+
+
 </script>

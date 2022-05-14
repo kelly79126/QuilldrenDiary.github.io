@@ -182,7 +182,6 @@ body {
 		top: var(--offsetY); left: var(--offsetX);
 
 	}
-	
 	.flip-card {
 		position: absolute;
 		padding-top: calc(1.3 * var(--unit));
@@ -245,4 +244,3 @@ body {
 #cover{
 	z-index: 5;
 }
-
