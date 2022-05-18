@@ -24,7 +24,10 @@
 	</div>
 
 	<!--桌面-->
-	<div id="ink"></div>
+	<a class="popup-ink"  >
+		<div id="ink" class="icon"></div>
+	</a>
+
 	<a href="https://twitter.com/quilldren_tw" target="_blank">
 		<div id="twitter" class="icon">		
 			<div id="twitter2"></div>
@@ -51,7 +54,9 @@
 		</div>
 	</a>
 	<div id="quilldren"></div>
-	<div id="cup"></div>
+	<a class="popup-cup"  >
+		<div id="cup" class="icon"></div>
+	</a>
 	<div id="toast"></div>
 </body>
 </html>
@@ -164,5 +169,30 @@
 				'allowfullscreen></iframe>'+
 				'</div>'
 		}
+	});
+
+	$('.popup-ink').magnificPopup({
+		items: {
+			src: `<div class="white-popup" style="width: 450px; height: 600px; padding: 0px 5px; background: url(./img/credits-bg.png); background-size: contain; background-repeat: no-repeat;">
+				  <div style="width: 410px; height: 580px; overflow: auto; padding-left:30px">
+				  	<img src="./img/credits.png" style="width: 420px; height: auto;" />
+				  </div>
+				</div>`,
+			type: 'inline' // this is default type
+		},
+		closeMarkup: '<button title="%title%" type="button" class="mfp-close" style="top: -50px;"><img src="./img/close.png" style="width:50px; height:auto; pointer-events:none;"></button>',
+	});
+
+	$('.popup-cup').magnificPopup({
+		items: {
+			src: `<div class="white-popup" style="width: 300px; height: 400px; padding: 0px 3px; background: url(./img/credits-bg.png); background-size: contain; background-repeat: no-repeat;">
+				  <div style="width: 264px; height: 385px; overflow: auto; padding-left:30px">
+				  	<img src="./img/credits.png" style="width: 264px; height: auto;" />
+				  </div>
+				</div>`,
+			// src: './img/credits_bg.png'
+			type: 'inline' // this is default type
+		},
+		closeMarkup: '<button title="%title%" type="button" class="mfp-close" style="top: -50px; right: -20px"><img src="./img/close2.png" style="width:50px; height:auto; pointer-events:none;"></button>',
 	});
 </script>
