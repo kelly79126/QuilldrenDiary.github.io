@@ -70,8 +70,8 @@ body {
 		z-index:1;
 	}
 	#twitter2{
-		width:calc(20 * var(--unit));  
-		height:calc(17.04 * var(--unit));  
+		width:calc(20 * var(--unit));
+		height:calc(17.04 * var(--unit));
 		background-image:url("img/Twitter.png");
 		background-size: cover;
 		transform: rotate(-13deg);
@@ -182,7 +182,7 @@ body {
 		top: var(--offsetY); left: var(--offsetX);
 
 	}
-	
+
 	.flip-card {
 		position: absolute;
 		padding-top: calc(1.3 * var(--unit));
@@ -192,6 +192,27 @@ body {
 		height: calc(42.8 * var(--unit));
 		perspective: calc(200 * var(--unit));; 
 		z-index:1;
+	}
+	.credits-bg {
+		position: relative;
+		margin: 20px auto;
+		width: 61.5vh;
+		height: 82vh;
+		padding: 0px 10px;
+		background-image: url("img/credits-bg.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.credits-container {
+		width: 56.5vh;
+		height: 80vh;
+		margin: 0px auto;
+		overflow: auto;
+		padding-left: 3vh
+	}
+	.credits-inside {
+		width: 56.5vh;
+		height: auto;
 	}
 }
 

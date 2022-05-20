@@ -25,8 +25,6 @@
 		background-size: cover;
 		transform: rotate(26deg);
 		}
-		
-	
 	#cup{
 		width:calc(70 * var(--unit));
 		height:calc(70 * var(--unit));
@@ -143,5 +141,26 @@
 		height: calc(112.5 * var(--unit));
 		z-index: 1;
 		perspective: calc(200 * var(--unit));
+	}
+	.credits-bg {
+		position: relative;
+		margin: 20px auto;
+		width: 81vw;
+		height: 108vw;
+		padding: 0px 10px;
+		background-image: url("img/credits-bg.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.credits-container {
+		width: 75vw;
+		height: 108vw;
+		margin: 0px auto;
+		overflow: auto;
+		padding-left: 3vw
+	}
+	.credits-inside {
+		width: 75vw;
+		height: auto;
 	}
 }

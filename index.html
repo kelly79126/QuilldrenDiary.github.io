@@ -189,13 +189,13 @@
 
 	$('.popup-cup').magnificPopup({
 		items: {
-			src: `<div class="white-popup" style="width: 600px; height: 800px; padding: 0px 10px; background: url(./img/credits-bg.png); background-size: contain; background-repeat: no-repeat;">
-				  <div style="width: 550px; height: 780px; overflow: auto; padding-left:30px">
-				  	<img src="./img/credits.png" style="width: 550px; height: auto;" />
-				  </div>
+			src: `<div class="credits-bg">
+					<div class="credits-container">
+						<img src="./img/credits.png" class="credits-inside"/>
+					</div>
 				</div>`,
 			type: 'inline'
 		},
-		closeMarkup: '<button title="%title%" type="button" class="mfp-close" style="top: -50px; right: -20px"><img src="./img/close2.png" style="width:50px; height:auto; pointer-events:none;"></button>',
+		closeMarkup: '<button title="%title%" type="button" class="mfp-close" style="top: -50px; right: -20px"><img src="./img/close2.png" style="width: 50px; height:auto; pointer-events:none;"></button>',
 	});
 </script>
