@@ -28,16 +28,20 @@ function insert_page_type1L(i,pic1,pic2,pic3,name1,name2,name3,text1,text2,text3
     }
 
 	var text1_id = text1, text2_id = text2, text3_id = text3;
+    var text1_author = text1+"_author", text2_author = text2+"_author", text3_author = text3+"_author";
     requirejs([text1], function(text1) {
         document.getElementById(text1_id).innerHTML = text1.Text();
+        document.getElementById(text1_author).innerHTML = text1.Author;
     });
     requirejs([text2], function(text2) {
         document.getElementById(text2_id).innerHTML = text2.Text();
+        document.getElementById(text2_author).innerHTML = text2.Author;
     });
     requirejs([text3], function(text3) {
         document.getElementById(text3_id).innerHTML = text3.Text();
+        document.getElementById(text3_author).innerHTML = text3.Author;
     });
-    
+
     $('.page').eq(i).append('\
         <div class="grid">\
             <div class="container_bookL_type1">\
@@ -46,6 +50,7 @@ function insert_page_type1L(i,pic1,pic2,pic3,name1,name2,name3,text1,text2,text3
                 </div>\
                 <div class="grid_block_type1 pic2_L_type1">\
                     <img src="'+pic2+'" class="grid_pic_1_1_type1"></img>\
+                    <img src="./img/mask_1x1.png" class="mask_pic_1_1"></img>\
                 </div>\
                 <div class="grid_block_type1 pic3_L_type1">\
                     <img src="'+pic3+'" class="grid_pic_1_1_type1"></img>\
@@ -53,13 +58,16 @@ function insert_page_type1L(i,pic1,pic2,pic3,name1,name2,name3,text1,text2,text3
                 <div class="grid_name_type1 name1_L_type1">'+name1+'</div>\
                 <div class="grid_name_type1 name2_L_type1">'+name2+'</div>\
                 <div class="grid_name_type1 name3_L_type1">'+name3+'</div>\
-                <div class="grid_block_type1 text1_L_type1">\
+                <div lang="en" class="grid_block_type1 text1_L_type1">\
+					<div id="'+text1_author+'" class="grid_author_short_type1"></div>\
                     <div id="'+text1_id+'" class="grid_text_short_type1"></div>\
                 </div>\
-                <div class="grid_block_type1 text2_L_type1">\
+                <div lang="en" class="grid_block_type1 text2_L_type1">\
                     <div id="'+text2_id+'" class="grid_text_long_type1"></div>\
+					<div id="'+text2_author+'" class="grid_author_long_type1"></div>\
                 </div>\
-                <div class="grid_block_type1 text3_L_type1">\
+                <div lang="en" class="grid_block_type1 text3_L_type1">\
+					<div id="'+text3_author+'" class="grid_author_short_type1"></div>\
                     <div id="'+text3_id+'" class="grid_text_short_type1"></div>\
                 </div>\
                 <img src="'+stc1+'" class="grid_stc_pic_type1 stc1_L_type1"></img>\
