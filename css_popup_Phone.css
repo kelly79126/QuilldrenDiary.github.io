@@ -46,7 +46,7 @@
 	.popup-article-text {
 		flex: 1;
 		font-family: Georgia;
-		font-size: 1rem;
+		font-size: 0.7rem;
 		padding-left: 7vw;
 		padding-right: 7vw;
 		padding-top: 4vw;
@@ -61,7 +61,7 @@
 	.popup-article-author {
 		text-align: center;
 		font-family: Georgia;
-		font-size: 1.001rem;
+		font-size: 0.8rem;
 		padding-left: 7vw;
 		padding-right: 7vw;
 		padding-bottom: 5vw;
