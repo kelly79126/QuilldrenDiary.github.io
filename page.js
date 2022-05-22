@@ -78,6 +78,9 @@ function insert_page_type1L(i,pic1,pic2,pic3,name1,name2,name3,text1,text2,text3
 
     popup_article(text1, '.stc1_L_type1');
     popup_article(text3, '.stc2_L_type1');
+    popup_photo(pic1, '.pic1_L_type1');
+    popup_photo(pic2, '.pic2_L_type1');
+    popup_photo(pic3, '.pic3_L_type1');
 }
 function insert_page_type1R(i,pic1,pic2,pic3,name1,name2,name3,text1,text2,text3,stc1,stc2){
 

@@ -44,3 +44,13 @@ function popup_article(text, stc){
         }
     });
 }
+
+function popup_photo(photo, photo_region){
+    $(photo_region).magnificPopup({
+        items: {
+            src: photo.substring(0, photo.lastIndexOf('.')-4) + photo.substring(photo.lastIndexOf('.'))
+          },
+        type: 'image',
+        closeMarkup: '<button title="%title%" type="button" class="mfp-close"><img src="./img/Blose.png" style="width: 35px; height:auto; pointer-events:none;"></button>'
+    });
+}
