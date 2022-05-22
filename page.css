@@ -243,6 +243,12 @@
 .grid_stc_pic_type1{
 	z-index: 100;
 	max-width:100%;
+	filter: drop-shadow(0 0 0.3vw black);
+}
+.grid_stc_pic_type1:hover{
+	margin-top: calc(0.1 * var(--unit));
+	margin-left: calc(0.1 * var(--unit));
+	filter: drop-shadow(0 0 0.5vw black);
 }
 
 .book_L_type1{
