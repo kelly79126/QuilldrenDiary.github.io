@@ -181,6 +181,9 @@ function first_page_phone(){
 	$('#earringsL').click(previous_phone);
 	$('#earringsR').click(next_phone);
 
+	/* 跳到第一頁，取消隱藏第二頁 */
+	$(".flip-card").eq(2).css("display", "block");
+
 	$(".flip-card-inner").eq(0).css("transform","rotateY(-180deg)");
 	$(".flip-card").eq(1).css("z-index","4");
 	$('#book').unbind("click");
