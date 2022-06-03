@@ -1,4 +1,12 @@
 @media (max-width: 480px){
+	body {
+		background-image:url("img/Table-phone.png");
+		background-size: cover;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		font-family:ShadowsIntoLightTwo;
+	}
+
 	#credits{
 		position: absolute;
 		top: calc(65.5 * var(--unit));
@@ -30,7 +38,7 @@
 	#twitter2{
 		width:calc(52 * var(--unit));  
 		height:calc(44.3 * var(--unit));  
-		background-image:url("img/Twitter.png");
+		background-image:url("img/Twitter-phone-index.png");
 		background-size: cover;
 		transform: rotate(-13deg);
 	}
@@ -43,7 +51,7 @@
 	#pen2{
 		width: calc(23 * var(--unit));
 		height:calc(82.2 * var(--unit));
-		background-image:url("img/Pen.png");
+		background-image:url("img/Pen-phone-index.png");
 		background-size: cover;
 		transform: rotate(26deg);
 		}
@@ -52,7 +60,7 @@
 	#cup{
 		width:calc(70 * var(--unit));
 		height:calc(70 * var(--unit));
-		background-image:url("img/Cup.gif");
+		background-image:url("img/Cup-phone.gif");
 		background-size: cover;
 		transform: translate(calc(60 * var(--unit)),calc(155 * var(--unit)));
 		position: absolute;
@@ -91,7 +99,7 @@
 	#earringsL{
 		width:calc(16 * var(--unit)); 
 		height:calc(16 * var(--unit));
-		background-image:url("img/earringsL.png");
+		background-image:url("img/earringsL-phone.png");
 		background-size: cover;
 		position: absolute;
 		top: var(--offsetY); left: var(--offsetX);
@@ -103,7 +111,7 @@
 	#earringsR{
 		width:calc(16 * var(--unit)); 
 		height:calc(16 * var(--unit));
-		background-image:url("img/earringsR.png");
+		background-image:url("img/earringsR-phone.png");
 		background-size: cover;
 		position: absolute;
 		top: var(--offsetY); left: var(--offsetX);
@@ -122,14 +130,14 @@
 	#pad2{
 		width:calc(72 * var(--unit));
 		height:calc(57.08 * var(--unit));
-		background-image:url("img/Pad.png");
+		background-image:url("img/Pad-phone-index.png");
 		background-size: cover;
 		transform: rotate(11deg);
 	}
 	#quilldren{
 		width:calc(65 * var(--unit));
 		height:calc(65 * var(--unit));
-		background-image:url("img/Quildren-2.gif");
+		background-image:url("img/Quildren-2-phone.gif");
 		background-size: cover;
 		transform: translate(calc(55 * var(--unit)),calc(100 * var(--unit)));
 		position: absolute;
@@ -139,7 +147,7 @@
 	#ink {
 		width:calc(50 * var(--unit));
 		height:calc(50 * var(--unit));
-		background-image:url("img/Ink.png");
+		background-image:url("img/Ink-phone.png");
 		background-size: cover;
 		transform: translate(calc(-20 * var(--unit)),calc(-10 * var(--unit)));
 		position: absolute;
@@ -149,7 +157,7 @@
 	#toast{
 		width:calc(65 * var(--unit));
 		height:calc(65 * var(--unit));
-		background-image:url("img/Toast.png");
+		background-image:url("img/Toast-phone.png");
 		background-size: cover;
 		transform: translate(calc(17 * var(--unit)),calc(170 * var(--unit)));
 		position: absolute;
