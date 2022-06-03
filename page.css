@@ -109,14 +109,14 @@
 	}
 }@media (max-width: 480px){
 	#title_page{
-		background-image:url('img/page-title-phone.png');
+		background-image:url('img/page-title.png');
 		background-size: cover;
 		margin-top:1%; 
 		height:97%; 
 		width:97%;
 	}
 	#end_paper{
-		background-image: url(img/end-paper-phone.png);
+		background-image: url(img/end-paper.png);
 		background-size: cover;
 		margin-top: 41%;
 		margin-left: 22%;
