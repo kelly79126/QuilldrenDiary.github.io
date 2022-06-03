@@ -308,8 +308,8 @@ function previous_phone(){
 
 }
 //////////////////////////////////////////////////////////////////////
-document.addEventListener('touchstart', handleTouchStart, false);        
-document.addEventListener('touchmove', handleTouchMove, false);
+// document.addEventListener('touchstart', handleTouchStart, false);        
+// document.addEventListener('touchmove', handleTouchMove, false);
 
 var xDown = null;                                                        
 var yDown = null;
