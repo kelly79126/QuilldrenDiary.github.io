@@ -5,7 +5,7 @@
 		left: 40vw;
 		width: 20vw;
 		height: 20vw;
-		background-image: url("img/Quildren-1-phone.gif");
+		background-image: url("img/Quildren-1-phone.png");
 		background-size: cover;
 		opacity:1;
 	}
@@ -71,7 +71,7 @@
 	#cup{
 		width:calc(70 * var(--unit));
 		height:calc(70 * var(--unit));
-		background-image:url("img/Cup-phone.gif");
+		background-image:url("img/Cup-phone.png");
 		background-size: cover;
 		transform: translate(calc(60 * var(--unit)),calc(155 * var(--unit)));
 		position: absolute;
@@ -148,7 +148,7 @@
 	#quilldren{
 		width:calc(65 * var(--unit));
 		height:calc(65 * var(--unit));
-		background-image:url("img/Quildren-2-phone.gif");
+		background-image:url("img/Quildren-2-phone.png");
 		background-size: cover;
 		transform: translate(calc(55 * var(--unit)),calc(100 * var(--unit)));
 		position: absolute;
@@ -207,7 +207,7 @@
 		background-size: cover;
 	}
 	#page_back_cover{
-		background-image: url("img/page-back-cover-phone.gif");
+		background-image: url("img/page-back-cover-phone.png");
 		background-size: cover;
 	}
 	#page_cover{
