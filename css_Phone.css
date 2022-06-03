@@ -1,4 +1,15 @@
 @media (max-width: 480px){
+	#running_quilldren{
+		position:absolute;
+		top: 40vh;
+		left: 40vw;
+		width: 20vw;
+		height: 20vw;
+		background-image: url("img/Quildren-1-phone.gif");
+		background-size: cover;
+		opacity:1;
+	}
+
 	body {
 		background-image:url("img/Table-phone.png");
 		background-size: cover;
@@ -13,7 +24,7 @@
 		left: calc(51.3 * var(--unit));
 		width: calc(36 * var(--unit));
 		height: calc(22 * var(--unit));
-		background-image: url(img/credits.png);
+		background-image: url(img/credits-phone.png);
 		background-size: cover;
 		z-index: 100;
 		display: none;
@@ -24,7 +35,7 @@
 		left: calc(51.1 * var(--unit));
 		width: calc(36 * var(--unit));
 		height: calc(22 * var(--unit));
-		background-image: url(img/resources.png);
+		background-image: url(img/resources-phone.png);
 		background-size: cover;
 		z-index: 100;
 		display: none;
@@ -75,7 +86,7 @@
 	#book2{
 		width:calc(95.5 * var(--unit)); 
 		height:calc(117.25 * var(--unit));
-		background-image: url("img/book.png");
+		background-image: url("img/book-index-phone.png");
 		background-size: cover;
 		position: absolute;
 		transform: rotate(-4.81deg);
@@ -85,7 +96,7 @@
 	#book-bg {
 		width: calc(109 * var(--unit));
 		height: calc(133 * var(--unit));
-		background-image: url("img/book.png");
+		background-image: url("img/book-index-phone.png");
 		background-size: cover;
 		position: absolute;
 		top: calc(0 * var(--unit));
@@ -174,5 +185,35 @@
 		height: calc(112.5 * var(--unit));
 		z-index: 1;
 		perspective: calc(200 * var(--unit));
+	}
+
+	.flip-card-front {
+		background-image: url("img/page-even-phone.png");
+		background-size: cover;
+	}
+	
+	.flip-card-back {
+		background-image: url("img/page-odd-phone.png");
+		background-size: cover;
+		transform: rotateY(180deg);
+	}
+	
+	#page_first{
+		background-image: url("img/page-first-phone.png");
+		background-size: cover;
+	}
+	#page_last{
+		background-image: url("img/page-last-phone.png");
+		background-size: cover;
+	}
+	#page_back_cover{
+		background-image: url("img/page-back-cover-phone.gif");
+		background-size: cover;
+	}
+	#page_cover{
+		background-image: url("img/Cover-phone.png");
+		background-size: cover;
+		width: 100%;
+		height: 100%;
 	}
 }

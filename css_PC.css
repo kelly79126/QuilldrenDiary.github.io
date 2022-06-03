@@ -22,16 +22,6 @@
 	font-size: 10vw;
 	opacity:1;
 }
-#running_quilldren{
-	position:absolute;
-	top: 40vh;
-	left: 40vw;
-	width: 20vw;
-	height: 20vw;
-	background-image: url("img/Quildren-1.gif");
-	background-size: cover;
-	opacity:1;
-}
 
 :root {
     --offsetX: 0;
@@ -45,6 +35,17 @@
 }
 
 @media (min-width: 480px){
+	#running_quilldren{
+		position:absolute;
+		top: 40vh;
+		left: 40vw;
+		width: 20vw;
+		height: 20vw;
+		background-image: url("img/Quildren-1.gif");
+		background-size: cover;
+		opacity:1;
+	}
+
 	body {
 		background-image:url("img/Table.png");
 		background-size: cover;
@@ -224,6 +225,36 @@
 		perspective: calc(200 * var(--unit));; 
 		z-index:1;
 	}
+
+	.flip-card-front {
+		background-image: url("img/page-even.png");
+		background-size: cover;
+	}
+	
+	.flip-card-back {
+		background-image: url("img/page-odd.png");
+		background-size: cover;
+		transform: rotateY(180deg);
+	}
+	
+	#page_first{
+		background-image: url("img/page-first.png");
+		background-size: cover;
+	}
+	#page_last{
+		background-image: url("img/page-last.png");
+		background-size: cover;
+	}
+	#page_back_cover{
+		background-image: url("img/page-back-cover.gif");
+		background-size: cover;
+	}
+	#page_cover{
+		background-image: url("img/Cover.png");
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 .flip-card-inner {
@@ -244,35 +275,6 @@
 	backface-visibility: hidden;
 }
 
-.flip-card-front {
-	background-image: url("img/page-even.png");
-	background-size: cover;
-}
-
-.flip-card-back {
-	background-image: url("img/page-odd.png");
-	background-size: cover;
-	transform: rotateY(180deg);
-}
-
-#page_first{
-	background-image: url("img/page-first.png");
-	background-size: cover;
-}
-#page_last{
-	background-image: url("img/page-last.png");
-	background-size: cover;
-}
-#page_back_cover{
-	background-image: url("img/page-back-cover.gif");
-	background-size: cover;
-}
-#page_cover{
-	background-image: url("img/Cover.png");
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-}
 #cover{
 	z-index: 5;
 }
