@@ -196,6 +196,9 @@ function first_page_phone(){
 function next_phone(){
 	$('#earringsR').unbind("click");
 	if(i == 0){
+		/* 跳到第一頁，取消隱藏第二頁 */
+		$(".flip-card").eq(2).css("display", "block");
+
 		$(".flip-card-inner").eq(0).css("transform","rotateY(-180deg)");
 		$(".flip-card").eq(1).css("z-index","3");
 		$('#earringsL').css("transition", "0.5s"); 
@@ -210,6 +213,13 @@ function next_phone(){
 				$('#earringsR').click(next_phone);
 		}, 250);
 	}else if(i < $(".flip-card-inner").length -1){
+		/* 跳到第i+1頁，取消隱藏第i+2頁，隱藏第i-1頁 (不隱藏0,1) */
+		if (i < $(".flip-card-inner").length - 2) {
+			$(".flip-card").eq(i+2).css("display", "block");
+		}
+		if (i-1 > 1) {
+			$(".flip-card").eq(i-1).css("display", "none");
+		}
 
 		$(".flip-card-inner").eq(i).css("transform","rotateY(-180deg)");
 	
@@ -224,6 +234,10 @@ function next_phone(){
 				$('#earringsR').click(next_phone);
 		}, 250);
 	}else if(i == $(".flip-card-inner").length -1){
+		if (i-1 > 1) {
+			$(".flip-card").eq(i-1).css("display", "none");
+		}
+
 		$(".flip-card-inner").eq(i).css("transform","rotateY(-180deg)");
 	
 		$(".flip-card").eq(i).css("z-index","4");
@@ -257,6 +271,10 @@ function next_phone(){
 function previous_phone(){
 	$('#earringsL').unbind("click");
 	if(i == $(".flip-card-inner").length){
+		if (i-2 > 1) {
+			$(".flip-card").eq(i-2).css("display", "block");
+		}
+
 		$('#earringsL').css("transition", "0.5s"); 
 		$("#earringsL").css("opacity","1");
 		$('#earringsR').css("transition", "0.5s"); 
@@ -274,6 +292,11 @@ function previous_phone(){
 	}
 
 	if(i > 1){
+		$(".flip-card").eq(i+1).css("display", "none");
+		if (i-2 > 1) {
+			$(".flip-card").eq(i-2).css("display", "block");
+		}
+
 		$(".flip-card-inner").eq(i-1).css("transform","rotateY(0deg)");
 		$(".flip-card").eq(i-2).css("z-index","3");
 		$(".flip-card").eq(i-1).css("z-index","4");
@@ -286,6 +309,8 @@ function previous_phone(){
 				$('#earringsL').click(previous_phone);
 		}, 250);
 	}else if(i == 1){
+		$(".flip-card").eq(2).css("display", "none");
+
 		$(".flip-card-inner").eq(0).css("transform","rotateY(0deg)");
 		$(".flip-card").eq(0).css("z-index","4");
 		$('#earringsL').css("transition", "0.5s"); 
