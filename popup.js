@@ -7,7 +7,7 @@ function popup_credits() {
         items: {
             src: `<div class="credits-bg">
                     <div class="credits-container">
-                        <img src="./img/credits-popup.png" class="credits-inside"/>
+                        <img src="./img/credits-popup.webp" class="credits-inside"/>
                     </div>
                 </div>`,
             type: 'inline'
@@ -25,7 +25,7 @@ function popup_resource() {
         items: {
             src: `<div class="credits-bg">
                     <div class="credits-container">
-                        <img src="./img/resource-popup.png" class="resource-inside"/>
+                        <img src="./img/resource-popup.webp" class="resource-inside"/>
                     </div>
                 </div>`,
             type: 'inline'
