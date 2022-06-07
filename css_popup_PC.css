@@ -25,9 +25,8 @@
 	}
 	.resource-inside {
 		margin: auto;
-		width: 50vh;
+		width: 56.5vh;
 		height: auto;
-		transform: rotate(7deg); 
 	}
 	.popup-article-long-bg {
 		position: relative;
@@ -66,6 +65,12 @@
 		hyphens: auto;
 		overflow: auto;
 	}
+	/*chrome 和Safari*/
+    .popup-article-text::-webkit-scrollbar { width: 0 !important }
+    /*IE 10+*/
+    .popup-article-text { -ms-overflow-style: none; }
+    /*Firefox*/
+    .popup-article-text { overflow: -moz-scrollbars-none; }
 	.popup-article-author {
 		/* color: #FDDA8E; */
 		color: #ffffff;
