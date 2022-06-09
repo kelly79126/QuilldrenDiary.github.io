@@ -38,7 +38,7 @@ function change_scene_phone() {
     $("#quilldren").css("background-image", "url('img/Quildren-phone.webp')"), $("#quilldren").css("width", "calc(24 * var(--unit))"), 
     $("#quilldren").css("height", "calc(32.88 * var(--unit))"), $("#quilldren").css("transform", "translate(calc(5 * var(--unit)),calc(5 * var(--unit)))"), 
     $("#pad").css("transform", "translate(calc(30 * var(--unit)),calc(5 * var(--unit)))"), 
-    $("#pad2").css("background-image", "url('img/Pad-phone.png')"), $("#pad2").css("transform", "rotate(0deg)"), 
+    $("#pad2").css("background-image", "url('img/Pad-phone2.png')"), $("#pad2").css("transform", "rotate(0deg)"), 
     $("#pad2").css("width", "calc(24 * var(--unit))"), $("#pad2").css("height", "calc(32.88 * var(--unit))"), 
     $("#twitter").css("transform", "translate(calc(55 * var(--unit)),calc(5 * var(--unit)))"), 
     $("#twitter2").css("background-image", "url('img/Twitter-phone.webp')"), $("#twitter2").css("transform", "rotate(0deg)"), 
