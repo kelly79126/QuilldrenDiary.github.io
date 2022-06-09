@@ -56,7 +56,7 @@
 		padding-right: 1.2vw;
 		padding-top: 0.5vw;
 		padding-bottom: 1.5vw;
-		background-image: url("img/IQD-a-02.webp");
+		background-image: url("img/IQD-a-02.png");
 		background-size: cover;
 	}
 	.bg_long{
@@ -65,7 +65,7 @@
 		padding-right:1.2vw;
 		padding-top: 0.5vw;
 		padding-bottom: 1.2vw;
-		background-image: url("img/IQD-a-01.webp");
+		background-image: url("img/IQD-a-01.png");
 		background-size: cover;
 	}
 	.grid_text_short_type1{
@@ -79,6 +79,7 @@
 		-ms-hyphens: auto;
 		hyphens: auto;
 		overflow:hidden;
+		padding-top: 0.3vw;
 	}
 	.grid_author_short_type1{
 		font-size: 0.7rem;
@@ -163,7 +164,7 @@
 		padding-right: 4vw;
 		padding-top: 1.5vw;
 		padding-bottom: 4vw;
-		background-image: url("img/IQD-a-02.webp");
+		background-image: url("img/IQD-a-02.png");
 		background-size: cover;
 	}
 	.bg_long{
@@ -172,7 +173,7 @@
 		padding-right: 4vw;
 		padding-top: 1.5vw;
 		padding-bottom: 3vw;
-		background-image: url("img/IQD-a-01.webp");
+		background-image: url("img/IQD-a-01.png");
 		background-size: cover;
 	}
 	.grid_text_short_type1{
@@ -186,6 +187,7 @@
 		-ms-hyphens: auto;
 		hyphens: auto;
 		overflow: hidden;
+		padding-top: 1vw;
 	}
 	.grid_author_short_type1{
 		font-size: 0.5rem;
@@ -280,13 +282,13 @@
 .grid_pic_1_1_type1{
 	max-width:86%;
 	margin-top: 6.53%;
-	filter: drop-shadow(0 0 2px rgba(130, 130, 130));
+	filter: drop-shadow(0 0 1px rgba(130, 130, 130));
 }
 
 .grid_pic_4_3_type1{
-	max-height:92%;
-	padding-top: 3%;
-	filter: drop-shadow(0 0 2px rgba(130, 130, 130));
+	max-height:88%;
+	padding-top: 4.3%;
+	filter: drop-shadow(0 0 1px rgba(130, 130, 130));
 }
 
 .grid_stc_pic_type1{
@@ -469,8 +471,8 @@
 }
 
 .grid_pic_4_3_type2{
-	max-height:92%;
-	padding-top: 3%;
+	max-height:88%;
+	padding-top: 4.3%;
 	filter: drop-shadow(0 0 2px rgba(130, 130, 130));
 }
 
@@ -619,9 +621,9 @@
 }
 .mask_pic_4_3{
 	position: absolute;
-	left: 1.5%;
-	top: 4%;
-	max-height:92%;
+	left: 3.8%;
+	top: 5.5%;
+	max-height:89%;
 }
 
 /************/
@@ -632,7 +634,7 @@
 	background-size: cover;
 }
 .bg_pic_4_3{
-	background-image: url("img/IQD-b-05.webp");
+	background-image: url("img/IQD-b-05.jpg");
 	background-size: cover;
 }
 

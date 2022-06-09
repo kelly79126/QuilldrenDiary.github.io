@@ -39,7 +39,7 @@
 		margin: 20px auto;
 		width: 60vh;
 		height: 80vh;
-		background: url(./img/IQD-b-04.webp);
+		background: url(./img/IQD-b-04.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 		display: flex;
@@ -50,7 +50,7 @@
 		margin: 20px auto;
 		width: 60vh;
 		height: 60vh;
-		background: url(./img/IQD-b-03.webp);
+		background: url(./img/IQD-b-03.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 		display: flex;
