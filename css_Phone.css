@@ -130,7 +130,7 @@
 	#pad2{
 		width:calc(72 * var(--unit));
 		height:calc(57.08 * var(--unit));
-		background-image:url("img/Pad.webp");
+		background-image:url("img/Pad.png");
 		background-size: cover;
 		transform: rotate(11deg);
 	}

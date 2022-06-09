@@ -187,7 +187,7 @@ body {
 	#pad2{
 		width:calc(33.43 * var(--unit));
 		height:calc(26.5 * var(--unit));
-		background-image:url("img/Pad.webp");
+		background-image:url("img/Pad.png");
 		background-size: cover;
 		transform: rotate(8deg);
 	}
