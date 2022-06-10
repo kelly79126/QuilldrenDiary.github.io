@@ -287,7 +287,7 @@
 
 .grid_pic_4_3_type1{
 	max-height:88%;
-	padding-top: 4.3%;
+	padding-top: 4.6%;
 	filter: drop-shadow(0 0 1px rgba(130, 130, 130));
 }
 
@@ -472,7 +472,7 @@
 
 .grid_pic_4_3_type2{
 	max-height:88%;
-	padding-top: 4.3%;
+	padding-top: 4.6%;
 	filter: drop-shadow(0 0 2px rgba(130, 130, 130));
 }
 
@@ -634,7 +634,7 @@
 	background-size: cover;
 }
 .bg_pic_4_3{
-	background-image: url("img/IQD-b-05.jpg");
+	background-image: url("img/IQD-b-05-2.jpg");
 	background-size: cover;
 }
 
