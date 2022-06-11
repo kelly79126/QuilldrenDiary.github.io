@@ -412,7 +412,7 @@ function insert_page_type2R(i,pic1,pic2,pic3,pic4,pic5,name1,name2,name3,name4,n
 	{
 		PIC4 = `<div id="R_type2_id_${i}_4" class="grid_block_type2 pic4_R_type2 bg_pic_1_1">
                     <img src="./photo/travel/${pic4}" class="grid_pic_1_1_type2"></img>
-                    <img src="./img/IQD-reflective-02-60_1x1.webp" class="mask_pic_1_1"></img>
+                    <img src="./img/IQD-reflective-02-50_1x1.webp" class="mask_pic_1_1"></img>
                 </div>
 				<div class="grid_name_type2 name4_R_type2">${name4}</div>`;
 	}
@@ -425,6 +425,7 @@ function insert_page_type2R(i,pic1,pic2,pic3,pic4,pic5,name1,name2,name3,name4,n
 	{
 		PIC5 = `<div id="R_type2_id_${i}_5" class="grid_block_type2 pic5_R_type2 bg_pic_1_1">
                     <img src="./photo/travel/${pic5}" class="grid_pic_1_1_type2"></img>
+					<img src="./img/IQD-reflective-02-40_1x1.webp" class="mask_pic_1_1"></img>
                 </div>
 				<div class="grid_name_type2 name5_R_type2">${name5}</div>`;
 	}
