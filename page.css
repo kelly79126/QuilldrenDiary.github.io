@@ -467,13 +467,13 @@
 	object-fit: cover;
     width: 100%;
 	aspect-ratio: 1 / 1;
-	filter: drop-shadow(0 0 2px rgba(130, 130, 130));
+	filter: drop-shadow(0 0 1px rgba(130, 130, 130));
 }
 
 .grid_pic_4_3_type2{
 	max-height:88%;
 	padding-top: 4.6%;
-	filter: drop-shadow(0 0 2px rgba(130, 130, 130));
+	filter: drop-shadow(0 0 1px rgba(130, 130, 130));
 }
 
 .book_L_type2{
